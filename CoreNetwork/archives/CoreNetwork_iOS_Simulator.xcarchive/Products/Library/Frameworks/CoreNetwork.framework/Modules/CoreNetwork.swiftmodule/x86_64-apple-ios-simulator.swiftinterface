@@ -1,0 +1,78 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CoreNetwork
+@_exported import CoreNetwork
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum HTTPMethodType : Swift.String {
+  case get
+  case post
+  case put
+  case delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class SaveStringAPIService {
+  public init(networkManager: any CoreNetwork.NetworkManagerProtocol)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func saveString(_ string: Swift.String) async -> Swift.Result<Swift.String, CoreNetwork.NetworkAPIError>
+  #endif
+  @objc deinit
+}
+public enum NetworkAPIError : Swift.Error, Swift.Equatable {
+  public static func == (lhs: CoreNetwork.NetworkAPIError, rhs: CoreNetwork.NetworkAPIError) -> Swift.Bool
+  case invalidUrl
+  case unauthorized
+  case invalidResponse
+  case invalidData
+  case jsonParsingFailure
+  case requestFailed(description: Swift.String)
+  case invalidStatusCode(statusCode: Swift.Int)
+  case unknownError(error: any Swift.Error)
+  case unkownGenericError(description: Swift.String)
+  public var customDescription: Swift.String {
+    get
+  }
+}
+public protocol NetworkSessionProtocol {
+  #if compiler(>=5.3) && $AsyncAwait
+  func data(for request: Foundation.URLRequest) async throws -> (Foundation.Data, Foundation.URLResponse)
+  #endif
+}
+extension Foundation.URLSession : CoreNetwork.NetworkSessionProtocol {
+}
+public protocol NetworkManagerProtocol {
+  #if compiler(>=5.3) && $AsyncAwait
+  func baseRequest<T>(request: CoreNetwork.NetworkRequest, type: T.Type) async throws -> Swift.Result<T, CoreNetwork.NetworkAPIError> where T : Swift.Decodable
+  #endif
+}
+final public class NetworkManager : CoreNetwork.NetworkManagerProtocol {
+  public init(session: any CoreNetwork.NetworkSessionProtocol = URLSession.shared)
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func baseRequest<T>(request: CoreNetwork.NetworkRequest, type: T.Type) async throws -> Swift.Result<T, CoreNetwork.NetworkAPIError> where T : Swift.Decodable
+  #endif
+  @objc deinit
+}
+public protocol NetworkRequestProtocol {
+  var baseURL: Foundation.URL { get }
+  var headers: [Swift.String : Swift.String] { get }
+  var queryParameters: [Swift.String : Swift.String] { get }
+  var bodyParameters: Foundation.Data? { get }
+}
+public struct NetworkRequest : CoreNetwork.NetworkRequestProtocol {
+  public let baseURL: Foundation.URL
+  public let method: CoreNetwork.HTTPMethodType
+  public var headers: [Swift.String : Swift.String]
+  public let queryParameters: [Swift.String : Swift.String]
+  public let bodyParameters: Foundation.Data?
+  public init(baseURL: Foundation.URL, method: CoreNetwork.HTTPMethodType = .get, headers: [Swift.String : Swift.String] = [:], queryParameters: [Swift.String : Swift.String] = [:], bodyParameters: Foundation.Data?)
+}
+extension CoreNetwork.HTTPMethodType : Swift.Equatable {}
+extension CoreNetwork.HTTPMethodType : Swift.Hashable {}
+extension CoreNetwork.HTTPMethodType : Swift.RawRepresentable {}

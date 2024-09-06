@@ -1,0 +1,2068 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethodType",
+        "printedName": "HTTPMethodType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.HTTPMethodType.Type) -> CoreNetwork.HTTPMethodType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodType",
+                    "printedName": "CoreNetwork.HTTPMethodType",
+                    "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.HTTPMethodType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethodType",
+                        "printedName": "CoreNetwork.HTTPMethodType",
+                        "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork14HTTPMethodTypeO3getyA2CmF",
+            "mangledName": "$s11CoreNetwork14HTTPMethodTypeO3getyA2CmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.HTTPMethodType.Type) -> CoreNetwork.HTTPMethodType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodType",
+                    "printedName": "CoreNetwork.HTTPMethodType",
+                    "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.HTTPMethodType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethodType",
+                        "printedName": "CoreNetwork.HTTPMethodType",
+                        "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork14HTTPMethodTypeO4postyA2CmF",
+            "mangledName": "$s11CoreNetwork14HTTPMethodTypeO4postyA2CmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.HTTPMethodType.Type) -> CoreNetwork.HTTPMethodType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodType",
+                    "printedName": "CoreNetwork.HTTPMethodType",
+                    "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.HTTPMethodType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethodType",
+                        "printedName": "CoreNetwork.HTTPMethodType",
+                        "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork14HTTPMethodTypeO3putyA2CmF",
+            "mangledName": "$s11CoreNetwork14HTTPMethodTypeO3putyA2CmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.HTTPMethodType.Type) -> CoreNetwork.HTTPMethodType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodType",
+                    "printedName": "CoreNetwork.HTTPMethodType",
+                    "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.HTTPMethodType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethodType",
+                        "printedName": "CoreNetwork.HTTPMethodType",
+                        "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork14HTTPMethodTypeO6deleteyA2CmF",
+            "mangledName": "$s11CoreNetwork14HTTPMethodTypeO6deleteyA2CmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreNetwork.HTTPMethodType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodType",
+                    "printedName": "CoreNetwork.HTTPMethodType",
+                    "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CoreNetwork14HTTPMethodTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11CoreNetwork14HTTPMethodTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "CoreNetwork",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork14HTTPMethodTypeO8rawValueSSvp",
+            "mangledName": "$s11CoreNetwork14HTTPMethodTypeO8rawValueSSvp",
+            "moduleName": "CoreNetwork",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork14HTTPMethodTypeO8rawValueSSvg",
+                "mangledName": "$s11CoreNetwork14HTTPMethodTypeO8rawValueSSvg",
+                "moduleName": "CoreNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11CoreNetwork14HTTPMethodTypeO",
+        "mangledName": "$s11CoreNetwork14HTTPMethodTypeO",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SaveStringAPIService",
+        "printedName": "SaveStringAPIService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(networkManager:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SaveStringAPIService",
+                "printedName": "CoreNetwork.SaveStringAPIService",
+                "usr": "s:11CoreNetwork20SaveStringAPIServiceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkManagerProtocol",
+                "printedName": "any CoreNetwork.NetworkManagerProtocol",
+                "usr": "s:11CoreNetwork0B15ManagerProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CoreNetwork20SaveStringAPIServiceC14networkManagerAcA0bG8Protocol_p_tcfc",
+            "mangledName": "$s11CoreNetwork20SaveStringAPIServiceC14networkManagerAcA0bG8Protocol_p_tcfc",
+            "moduleName": "CoreNetwork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "saveString",
+            "printedName": "saveString(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Swift.String, CoreNetwork.NetworkAPIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkAPIError",
+                    "printedName": "CoreNetwork.NetworkAPIError",
+                    "usr": "s:11CoreNetwork0B8APIErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreNetwork20SaveStringAPIServiceC04saveD0ys6ResultOySSAA0B8APIErrorOGSSYaF",
+            "mangledName": "$s11CoreNetwork20SaveStringAPIServiceC04saveD0ys6ResultOySSAA0B8APIErrorOGSSYaF",
+            "moduleName": "CoreNetwork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11CoreNetwork20SaveStringAPIServiceC",
+        "mangledName": "$s11CoreNetwork20SaveStringAPIServiceC",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkAPIError",
+        "printedName": "NetworkAPIError",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIError",
+                "printedName": "CoreNetwork.NetworkAPIError",
+                "usr": "s:11CoreNetwork0B8APIErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIError",
+                "printedName": "CoreNetwork.NetworkAPIError",
+                "usr": "s:11CoreNetwork0B8APIErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreNetwork0B8APIErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "CoreNetwork",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidUrl",
+            "printedName": "invalidUrl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.NetworkAPIError.Type) -> CoreNetwork.NetworkAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkAPIError",
+                    "printedName": "CoreNetwork.NetworkAPIError",
+                    "usr": "s:11CoreNetwork0B8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.NetworkAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork0B8APIErrorO10invalidUrlyA2CmF",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO10invalidUrlyA2CmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "unauthorized",
+            "printedName": "unauthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.NetworkAPIError.Type) -> CoreNetwork.NetworkAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkAPIError",
+                    "printedName": "CoreNetwork.NetworkAPIError",
+                    "usr": "s:11CoreNetwork0B8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.NetworkAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork0B8APIErrorO12unauthorizedyA2CmF",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO12unauthorizedyA2CmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.NetworkAPIError.Type) -> CoreNetwork.NetworkAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkAPIError",
+                    "printedName": "CoreNetwork.NetworkAPIError",
+                    "usr": "s:11CoreNetwork0B8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.NetworkAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork0B8APIErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO15invalidResponseyA2CmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidData",
+            "printedName": "invalidData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.NetworkAPIError.Type) -> CoreNetwork.NetworkAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkAPIError",
+                    "printedName": "CoreNetwork.NetworkAPIError",
+                    "usr": "s:11CoreNetwork0B8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.NetworkAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork0B8APIErrorO11invalidDatayA2CmF",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO11invalidDatayA2CmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "jsonParsingFailure",
+            "printedName": "jsonParsingFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.NetworkAPIError.Type) -> CoreNetwork.NetworkAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkAPIError",
+                    "printedName": "CoreNetwork.NetworkAPIError",
+                    "usr": "s:11CoreNetwork0B8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.NetworkAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork0B8APIErrorO18jsonParsingFailureyA2CmF",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO18jsonParsingFailureyA2CmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "requestFailed",
+            "printedName": "requestFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.NetworkAPIError.Type) -> (Swift.String) -> CoreNetwork.NetworkAPIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CoreNetwork.NetworkAPIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(description: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.NetworkAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork0B8APIErrorO13requestFailedyACSS_tcACmF",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO13requestFailedyACSS_tcACmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidStatusCode",
+            "printedName": "invalidStatusCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.NetworkAPIError.Type) -> (Swift.Int) -> CoreNetwork.NetworkAPIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> CoreNetwork.NetworkAPIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.NetworkAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork0B8APIErrorO17invalidStatusCodeyACSi_tcACmF",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO17invalidStatusCodeyACSi_tcACmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.NetworkAPIError.Type) -> (any Swift.Error) -> CoreNetwork.NetworkAPIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> CoreNetwork.NetworkAPIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: any Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.NetworkAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork0B8APIErrorO12unknownErroryACs0E0_p_tcACmF",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO12unknownErroryACs0E0_p_tcACmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "unkownGenericError",
+            "printedName": "unkownGenericError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreNetwork.NetworkAPIError.Type) -> (Swift.String) -> CoreNetwork.NetworkAPIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CoreNetwork.NetworkAPIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(description: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreNetwork.NetworkAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkAPIError",
+                        "printedName": "CoreNetwork.NetworkAPIError",
+                        "usr": "s:11CoreNetwork0B8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreNetwork0B8APIErrorO18unkownGenericErroryACSS_tcACmF",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO18unkownGenericErroryACSS_tcACmF",
+            "moduleName": "CoreNetwork"
+          },
+          {
+            "kind": "Var",
+            "name": "customDescription",
+            "printedName": "customDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork0B8APIErrorO17customDescriptionSSvp",
+            "mangledName": "$s11CoreNetwork0B8APIErrorO17customDescriptionSSvp",
+            "moduleName": "CoreNetwork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B8APIErrorO17customDescriptionSSvg",
+                "mangledName": "$s11CoreNetwork0B8APIErrorO17customDescriptionSSvg",
+                "moduleName": "CoreNetwork",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11CoreNetwork0B8APIErrorO",
+        "mangledName": "$s11CoreNetwork0B8APIErrorO",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkSessionProtocol",
+        "printedName": "NetworkSessionProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "data",
+            "printedName": "data(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.Data, Foundation.URLResponse)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreNetwork0B15SessionProtocolP4data3for10Foundation4DataV_So13NSURLResponseCtAF10URLRequestV_tYaKF",
+            "mangledName": "$s11CoreNetwork0B15SessionProtocolP4data3for10Foundation4DataV_So13NSURLResponseCtAF10URLRequestV_tYaKF",
+            "moduleName": "CoreNetwork",
+            "genericSig": "<τ_0_0 where τ_0_0 : CoreNetwork.NetworkSessionProtocol>",
+            "sugared_genericSig": "<Self where Self : CoreNetwork.NetworkSessionProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11CoreNetwork0B15SessionProtocolP",
+        "mangledName": "$s11CoreNetwork0B15SessionProtocolP",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkManagerProtocol",
+        "printedName": "NetworkManagerProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "baseRequest",
+            "printedName": "baseRequest(request:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<τ_1_0, CoreNetwork.NetworkAPIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkAPIError",
+                    "printedName": "CoreNetwork.NetworkAPIError",
+                    "usr": "s:11CoreNetwork0B8APIErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkRequest",
+                "printedName": "CoreNetwork.NetworkRequest",
+                "usr": "s:11CoreNetwork0B7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreNetwork0B15ManagerProtocolP11baseRequest7request4types6ResultOyqd__AA0B8APIErrorOGAA0bF0V_qd__mtYaKSeRd__lF",
+            "mangledName": "$s11CoreNetwork0B15ManagerProtocolP11baseRequest7request4types6ResultOyqd__AA0B8APIErrorOGAA0bF0V_qd__mtYaKSeRd__lF",
+            "moduleName": "CoreNetwork",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : CoreNetwork.NetworkManagerProtocol, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : CoreNetwork.NetworkManagerProtocol, T : Swift.Decodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11CoreNetwork0B15ManagerProtocolP",
+        "mangledName": "$s11CoreNetwork0B15ManagerProtocolP",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkManager",
+        "printedName": "NetworkManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(session:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkManager",
+                "printedName": "CoreNetwork.NetworkManager",
+                "usr": "s:11CoreNetwork0B7ManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkSessionProtocol",
+                "printedName": "any CoreNetwork.NetworkSessionProtocol",
+                "hasDefaultArg": true,
+                "usr": "s:11CoreNetwork0B15SessionProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CoreNetwork0B7ManagerC7sessionAcA0B15SessionProtocol_p_tcfc",
+            "mangledName": "$s11CoreNetwork0B7ManagerC7sessionAcA0B15SessionProtocol_p_tcfc",
+            "moduleName": "CoreNetwork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "baseRequest",
+            "printedName": "baseRequest(request:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<τ_0_0, CoreNetwork.NetworkAPIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkAPIError",
+                    "printedName": "CoreNetwork.NetworkAPIError",
+                    "usr": "s:11CoreNetwork0B8APIErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkRequest",
+                "printedName": "CoreNetwork.NetworkRequest",
+                "usr": "s:11CoreNetwork0B7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreNetwork0B7ManagerC11baseRequest7request4types6ResultOyxAA0B8APIErrorOGAA0bE0V_xmtYaKSeRzlF",
+            "mangledName": "$s11CoreNetwork0B7ManagerC11baseRequest7request4types6ResultOyxAA0B8APIErrorOGAA0bE0V_xmtYaKSeRzlF",
+            "moduleName": "CoreNetwork",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11CoreNetwork0B7ManagerC",
+        "mangledName": "$s11CoreNetwork0B7ManagerC",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NetworkManagerProtocol",
+            "printedName": "NetworkManagerProtocol",
+            "usr": "s:11CoreNetwork0B15ManagerProtocolP",
+            "mangledName": "$s11CoreNetwork0B15ManagerProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkRequestProtocol",
+        "printedName": "NetworkRequestProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork0B15RequestProtocolP7baseURL10Foundation0F0Vvp",
+            "mangledName": "$s11CoreNetwork0B15RequestProtocolP7baseURL10Foundation0F0Vvp",
+            "moduleName": "CoreNetwork",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B15RequestProtocolP7baseURL10Foundation0F0Vvg",
+                "mangledName": "$s11CoreNetwork0B15RequestProtocolP7baseURL10Foundation0F0Vvg",
+                "moduleName": "CoreNetwork",
+                "genericSig": "<τ_0_0 where τ_0_0 : CoreNetwork.NetworkRequestProtocol>",
+                "sugared_genericSig": "<Self where Self : CoreNetwork.NetworkRequestProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork0B15RequestProtocolP7headersSDyS2SGvp",
+            "mangledName": "$s11CoreNetwork0B15RequestProtocolP7headersSDyS2SGvp",
+            "moduleName": "CoreNetwork",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B15RequestProtocolP7headersSDyS2SGvg",
+                "mangledName": "$s11CoreNetwork0B15RequestProtocolP7headersSDyS2SGvg",
+                "moduleName": "CoreNetwork",
+                "genericSig": "<τ_0_0 where τ_0_0 : CoreNetwork.NetworkRequestProtocol>",
+                "sugared_genericSig": "<Self where Self : CoreNetwork.NetworkRequestProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryParameters",
+            "printedName": "queryParameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork0B15RequestProtocolP15queryParametersSDyS2SGvp",
+            "mangledName": "$s11CoreNetwork0B15RequestProtocolP15queryParametersSDyS2SGvp",
+            "moduleName": "CoreNetwork",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B15RequestProtocolP15queryParametersSDyS2SGvg",
+                "mangledName": "$s11CoreNetwork0B15RequestProtocolP15queryParametersSDyS2SGvg",
+                "moduleName": "CoreNetwork",
+                "genericSig": "<τ_0_0 where τ_0_0 : CoreNetwork.NetworkRequestProtocol>",
+                "sugared_genericSig": "<Self where Self : CoreNetwork.NetworkRequestProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyParameters",
+            "printedName": "bodyParameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork0B15RequestProtocolP14bodyParameters10Foundation4DataVSgvp",
+            "mangledName": "$s11CoreNetwork0B15RequestProtocolP14bodyParameters10Foundation4DataVSgvp",
+            "moduleName": "CoreNetwork",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B15RequestProtocolP14bodyParameters10Foundation4DataVSgvg",
+                "mangledName": "$s11CoreNetwork0B15RequestProtocolP14bodyParameters10Foundation4DataVSgvg",
+                "moduleName": "CoreNetwork",
+                "genericSig": "<τ_0_0 where τ_0_0 : CoreNetwork.NetworkRequestProtocol>",
+                "sugared_genericSig": "<Self where Self : CoreNetwork.NetworkRequestProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11CoreNetwork0B15RequestProtocolP",
+        "mangledName": "$s11CoreNetwork0B15RequestProtocolP",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkRequest",
+        "printedName": "NetworkRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork0B7RequestV7baseURL10Foundation0E0Vvp",
+            "mangledName": "$s11CoreNetwork0B7RequestV7baseURL10Foundation0E0Vvp",
+            "moduleName": "CoreNetwork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B7RequestV7baseURL10Foundation0E0Vvg",
+                "mangledName": "$s11CoreNetwork0B7RequestV7baseURL10Foundation0E0Vvg",
+                "moduleName": "CoreNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethodType",
+                "printedName": "CoreNetwork.HTTPMethodType",
+                "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork0B7RequestV6methodAA14HTTPMethodTypeOvp",
+            "mangledName": "$s11CoreNetwork0B7RequestV6methodAA14HTTPMethodTypeOvp",
+            "moduleName": "CoreNetwork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodType",
+                    "printedName": "CoreNetwork.HTTPMethodType",
+                    "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B7RequestV6methodAA14HTTPMethodTypeOvg",
+                "mangledName": "$s11CoreNetwork0B7RequestV6methodAA14HTTPMethodTypeOvg",
+                "moduleName": "CoreNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork0B7RequestV7headersSDyS2SGvp",
+            "mangledName": "$s11CoreNetwork0B7RequestV7headersSDyS2SGvp",
+            "moduleName": "CoreNetwork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B7RequestV7headersSDyS2SGvg",
+                "mangledName": "$s11CoreNetwork0B7RequestV7headersSDyS2SGvg",
+                "moduleName": "CoreNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B7RequestV7headersSDyS2SGvs",
+                "mangledName": "$s11CoreNetwork0B7RequestV7headersSDyS2SGvs",
+                "moduleName": "CoreNetwork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B7RequestV7headersSDyS2SGvM",
+                "mangledName": "$s11CoreNetwork0B7RequestV7headersSDyS2SGvM",
+                "moduleName": "CoreNetwork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryParameters",
+            "printedName": "queryParameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork0B7RequestV15queryParametersSDyS2SGvp",
+            "mangledName": "$s11CoreNetwork0B7RequestV15queryParametersSDyS2SGvp",
+            "moduleName": "CoreNetwork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B7RequestV15queryParametersSDyS2SGvg",
+                "mangledName": "$s11CoreNetwork0B7RequestV15queryParametersSDyS2SGvg",
+                "moduleName": "CoreNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyParameters",
+            "printedName": "bodyParameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreNetwork0B7RequestV14bodyParameters10Foundation4DataVSgvp",
+            "mangledName": "$s11CoreNetwork0B7RequestV14bodyParameters10Foundation4DataVSgvp",
+            "moduleName": "CoreNetwork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreNetwork0B7RequestV14bodyParameters10Foundation4DataVSgvg",
+                "mangledName": "$s11CoreNetwork0B7RequestV14bodyParameters10Foundation4DataVSgvg",
+                "moduleName": "CoreNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(baseURL:method:headers:queryParameters:bodyParameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkRequest",
+                "printedName": "CoreNetwork.NetworkRequest",
+                "usr": "s:11CoreNetwork0B7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethodType",
+                "printedName": "CoreNetwork.HTTPMethodType",
+                "hasDefaultArg": true,
+                "usr": "s:11CoreNetwork14HTTPMethodTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CoreNetwork0B7RequestV7baseURL6method7headers15queryParameters04bodyI0AC10Foundation0E0V_AA14HTTPMethodTypeOSDyS2SGAnI4DataVSgtcfc",
+            "mangledName": "$s11CoreNetwork0B7RequestV7baseURL6method7headers15queryParameters04bodyI0AC10Foundation0E0V_AA14HTTPMethodTypeOSDyS2SGAnI4DataVSgtcfc",
+            "moduleName": "CoreNetwork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11CoreNetwork0B7RequestV",
+        "mangledName": "$s11CoreNetwork0B7RequestV",
+        "moduleName": "CoreNetwork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NetworkRequestProtocol",
+            "printedName": "NetworkRequestProtocol",
+            "usr": "s:11CoreNetwork0B15RequestProtocolP",
+            "mangledName": "$s11CoreNetwork0B15RequestProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSession",
+        "printedName": "URLSession",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLSession",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSURLSession",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NetworkSessionProtocol",
+            "printedName": "NetworkSessionProtocol",
+            "usr": "s:11CoreNetwork0B15SessionProtocolP",
+            "mangledName": "$s11CoreNetwork0B15SessionProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/Core\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/Core\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/Core\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/Core\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/Core\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/Core\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/Core\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/Core\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/APIService\/SaveStringAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 58,
+      "value": "\"https:\/\/us-central1-mobilesdklogging.cloudfunctions.net\/\""
+    },
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/Core\/NetworkRequest.swift",
+      "kind": "Dictionary",
+      "offset": 1224,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/luizvasconcellos\/Developer\/CoreNetwork\/CoreNetwork\/CoreNetwork\/Core\/NetworkRequest.swift",
+      "kind": "Dictionary",
+      "offset": 1281,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
